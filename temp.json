@@ -1,0 +1,115 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2022 The New York Times Company. All Rights Reserved.",
+  "has_more": false,
+  "num_results": 6,
+  "results": [
+    {
+      "display_title": "Pokémon Detective Pikachu",
+      "mpaa_rating": "PG",
+      "critics_pick": 0,
+      "byline": "BEN KENIGSBERG",
+      "headline": "‘Pokémon Detective Pikachu’ Review: A Cat and (Electric) Mouse Game",
+      "summary_short": "The high-voltage critter from the popular Japanese franchise fights crime in a futuristic city where humans and Pokémon live side by side.",
+      "publication_date": "2019-05-09",
+      "opening_date": "2019-05-10",
+      "date_updated": "2019-06-09 16:44:02",
+      "link": {
+        "type": "article",
+        "url": "https://www.nytimes.com/2019/05/09/movies/pokemon-detective-pikachu-review.html",
+        "suggested_link_text": "Read the New York Times Review of Pokémon Detective Pikachu"
+      },
+      "multimedia": {
+        "type": "mediumThreeByTwo210",
+        "src": "https://static01.nyt.com/images/2019/05/09/arts/09pikachu/09pikachu-mediumThreeByTwo210.jpg",
+        "height": 140,
+        "width": 210
+      }
+    },
+    {
+      "display_title": "Pokemon Heroes",
+      "mpaa_rating": "G",
+      "critics_pick": 0,
+      "byline": "Dave Kehr",
+      "headline": "Pocket Monsters on Screen Today, in Stores Tomorrow",
+      "summary_short": "No. 5 in the series of more-or-less animated feature films based on the diminishingly popular line of Japanese children's video games, \u0026quot;Pokémon Heroes\u0026quot; plays more like a catalog than a movie. The central human figure in the series is Ash Ketchum, a teenager who roams the world unburdened by parental supervision as he searches for more Pokémon to train and add to his collection (there are now more than 250 characters in the Pokémon universe).  He is aided by his first and finest Pokémon acquisition, Pikachu, a little yellow rabbit-like creature who emits devastating bolts of electricity when provoked. The film dutifully trots out several new additions to the PokÀemon product line — cute little \u0026quot;pocket monsters\u0026quot; that kids are encouraged to \u0026quot;capture\u0026quot; (i.e., purchase) — but is otherwise a tedious, unimaginative affair. — Dave Kehr",
+      "publication_date": "2003-05-16",
+      "opening_date": "2003-05-16",
+      "date_updated": "2017-11-02 04:18:02",
+      "link": {
+        "type": "article",
+        "url": "https://www.nytimes.com/2003/05/16/movies/film-in-review-pokemon-heroes.html",
+        "suggested_link_text": "Read the New York Times Review of Pokemon Heroes"
+      },
+      "multimedia": null
+    },
+    {
+      "display_title": "Pokemon 4Ever",
+      "mpaa_rating": "G",
+      "critics_pick": 0,
+      "byline": "Lawrence Van Gelder",
+      "headline": "Pokemon 4Ever (Movie)  ",
+      "summary_short": "If the insipid plot, vapid characters and senseless battles of \u0026quot;Pokémon 4Ever\u0026quot; are any clue, then it is little wonder that the childish distractions of the animated characters of the new Yu-Gi-Oh craze have begun to bulldoze Pokémon into the graveyard of fading fads. This latest installment amounts to so much candy-colored claptrap about the young Pokémon trainer and aspiring master Ash, his pals Misty and Brock, and their saccharine, spirited, bright yellow, bloblike companion, the pocket monster (Pokémon for short) Pikachu. When it comes to entertainment, children deserve better than this. \u0026#151; Lawrence Van Gelder\r\n",
+      "publication_date": "2002-10-11",
+      "opening_date": "2002-10-11",
+      "date_updated": "2017-11-02 04:18:01",
+      "link": {
+        "type": "article",
+        "url": "https://www.nytimes.com/2002/10/11/movies/film-in-review-pokemon-4ever.html",
+        "suggested_link_text": "Read the New York Times Review of Pokemon 4Ever"
+      },
+      "multimedia": null
+    },
+    {
+      "display_title": "Pokemon 3 The Movie: Spell of the Unown",
+      "mpaa_rating": "G",
+      "critics_pick": 0,
+      "byline": "Anita Gates",
+      "headline": "Pokemon 3: The Movie  ",
+      "summary_short": "The Japanese animation phenomenon that is Pokémon (short for Pocket Monsters) began in 1996 and continues on American television and with this, the third feature film. Worthwhile morals abound. Beyond that, \u0026quot;Pokémon 3\u0026quot; is all about bright colors and constant movement. — Anita Gates\r\n",
+      "publication_date": "2001-04-06",
+      "opening_date": "2001-04-06",
+      "date_updated": "2017-11-02 04:17:59",
+      "link": {
+        "type": "article",
+        "url": "https://www.nytimes.com/2001/04/06/movies/film-review-emotional-shutdown-i-choose-you.html",
+        "suggested_link_text": "Read the New York Times Review of Pokemon 3 The Movie: Spell of the Unown"
+      },
+      "multimedia": null
+    },
+    {
+      "display_title": "Pokemon The Movie 2000",
+      "mpaa_rating": "G",
+      "critics_pick": 0,
+      "byline": "Elvis Mitchell",
+      "headline": "Pokemon: The Movie 2000 (Movie)  ",
+      "summary_short": "",
+      "publication_date": "2000-07-21",
+      "opening_date": "2000-07-21",
+      "date_updated": "2017-11-02 04:17:58",
+      "link": {
+        "type": "article",
+        "url": "https://www.nytimes.com/2000/07/21/movies/film-review-for-children-a-language-to-vex-their-parents-with.html",
+        "suggested_link_text": "Read the New York Times Review of Pokemon The Movie 2000"
+      },
+      "multimedia": null
+    },
+    {
+      "display_title": "Pokemon The First Movie",
+      "mpaa_rating": "G",
+      "critics_pick": 0,
+      "byline": "Anita Gates",
+      "headline": "Pokemon: The First Movie (Movie)",
+      "summary_short": "",
+      "publication_date": "1999-11-10",
+      "opening_date": "1999-11-10",
+      "date_updated": "2017-11-02 04:17:57",
+      "link": {
+        "type": "article",
+        "url": "https://www.nytimes.com/1999/11/10/movies/film-review-charizard-beats-psyduck-but-pikachu-s-the-cutest.html",
+        "suggested_link_text": "Read the New York Times Review of Pokemon The First Movie"
+      },
+      "multimedia": null
+    }
+  ]
+}
