@@ -9,4 +9,10 @@ export default StyleSheet.create({
     height: '100%',
     width: '100%',
   },
+  loadingIndicator: {
+    top: 16,
+    position: 'absolute',
+    left: 0,
+    right: 0,
+  },
 });

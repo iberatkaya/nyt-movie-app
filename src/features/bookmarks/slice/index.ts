@@ -1,27 +1,42 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { getBookmarksRequest } from './thunk';
+import { getBookmarksRequest, addBookmark, removeBookmark } from './thunk';
 import { BookmarksReducer } from './types';
 
 const initialState: BookmarksReducer = {
   bookmarks: [],
-  status: 'idle',
+  fetchingBookmarksStatus: 'idle',
+  settingBookmarkStatus: 'idle',
 };
 
-const bookmarks = createSlice({
+const bookmarksSlice = createSlice({
   name: 'bookmarks',
   initialState,
   reducers: {},
   extraReducers: (builder) => {
     builder.addCase(getBookmarksRequest.pending, (state) => {
-      state.status = 'loading';
+      state.fetchingBookmarksStatus = 'loading';
     });
     builder.addCase(getBookmarksRequest.fulfilled, (state, action) => {
-      state.status = 'success';
+      state.fetchingBookmarksStatus = 'success';
+      state.bookmarks = action.payload;
+    });
+    builder.addCase(addBookmark.pending, (state) => {
+      state.settingBookmarkStatus = 'loading';
+    });
+    builder.addCase(addBookmark.fulfilled, (state, action) => {
+      state.settingBookmarkStatus = 'success';
+      state.bookmarks = action.payload;
+    });
+    builder.addCase(removeBookmark.pending, (state) => {
+      state.settingBookmarkStatus = 'loading';
+    });
+    builder.addCase(removeBookmark.fulfilled, (state, action) => {
+      state.settingBookmarkStatus = 'success';
       state.bookmarks = action.payload;
     });
   },
 });
 
-export const {} = bookmarks.actions;
+export const {} = bookmarksSlice.actions;
 
-export default bookmarks.reducer;
+export default bookmarksSlice.reducer;

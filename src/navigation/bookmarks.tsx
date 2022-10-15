@@ -2,6 +2,7 @@ import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import BookmarksPage from '../features/bookmarks';
 import { BookmarksStackParamList } from './types';
+import Browser from '../features/browser';
 
 const BookmarksStack = createStackNavigator<BookmarksStackParamList>();
 
@@ -14,6 +15,7 @@ const Bookmarks = () => (
         headerTitle: 'Bookmarks',
       }}
     />
+    <BookmarksStack.Screen name="Browser" component={Browser} />
   </BookmarksStack.Navigator>
 );
 

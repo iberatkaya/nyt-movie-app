@@ -18,6 +18,7 @@ const App = () => {
     text: '#000',
     background: '#fff',
   };
+
   return (
     <Provider store={store}>
       <PaperProvider

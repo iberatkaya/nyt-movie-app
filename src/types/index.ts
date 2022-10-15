@@ -12,3 +12,5 @@ export interface Movie {
     width: number;
   } | null;
 }
+
+export type Status = 'idle' | 'loading' | 'success' | 'failed';

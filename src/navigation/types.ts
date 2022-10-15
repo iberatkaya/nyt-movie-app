@@ -5,13 +5,16 @@ export type RootStackParamList = {
   BookmarksStack: NavigatorScreenParams<BookmarksStackParamList>;
 };
 
+type Browser = {
+  link: string;
+};
+
 export type SearchStackParamList = {
   Search: undefined;
-  Browser: {
-    link: string;
-  };
+  Browser: Browser;
 };
 
 export type BookmarksStackParamList = {
   Bookmarks: undefined;
+  Browser: Browser;
 };

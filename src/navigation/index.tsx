@@ -13,7 +13,7 @@ const Tabs = () => {
   const dispatch = useAppDispatch();
 
   useEffect(() => {
-    dispatch(getBookmarksRequest()).then(console.log);
+    dispatch(getBookmarksRequest());
   }, [dispatch]);
 
   return (

@@ -36,4 +36,8 @@ export default StyleSheet.create({
     fontSize: 14,
     color: '#222',
   },
+  bookmarkRow: {
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+  },
 });

@@ -1,6 +1,7 @@
-import { Movie } from '../../../types';
+import { Movie, Status } from '../../../types';
 
 export type BookmarksReducer = {
   bookmarks: Movie[];
-  status: 'idle' | 'loading' | 'success' | 'failed';
+  fetchingBookmarksStatus: Status;
+  settingBookmarkStatus: Status;
 };
